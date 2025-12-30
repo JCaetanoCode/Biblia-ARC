@@ -6,11 +6,13 @@ Este repositório contém uma versão web da **Bíblia Sagrada**, utilizando a t
 
 ## ✨ Características do Projeto
 
-* **Tradução Clássica:** Texto baseado na Almeida Revista e Corrigida, uma das versões mais respeitadas da língua portuguesa.
-* **Design Minimalista:** Foco total na leitura, sem anúncios ou distrações.
-* **Interface Responsiva:** projeto em andamento para tablets e celulares.
-* **Menu Lateral de Navegação:** Acesso rápido a todos os livros do Antigo e Novo Testamento.
-* Destaques do Layout: Leitura Guiada: Versículos destacam-se visualmente ao passar o mouse para facilitar a leitura. Links Diretos: Suporte a âncoras para compartilhar versículos específicos.
+* Tradução Clássica:** Texto baseado na Almeida Revista e Corrigida, uma das versões mais respeitadas da língua portuguesa.
+* Design Minimalista:** Foco total na leitura, sem anúncios ou distrações.
+* Interface Responsiva:** projeto em andamento para tablets e celulares.
+* Menu Lateral de Navegação:** Acesso rápido a todos os livros do Antigo e Novo Testamento.
+* Destaques do Capítulo: Quando o capitulo é acessado o mesmo se destaca garantindo a certeza da procura.
+* Leitura Guiada: Versículos destacam-se visualmente ao passar o mouse para facilitar a leitura.
+* Links Diretos: Suporte a âncoras para compartilhar versículos específicos.
 
 ## 🛠️ Tecnologias Utilizadas
 
