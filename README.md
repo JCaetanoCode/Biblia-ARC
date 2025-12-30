@@ -29,7 +29,7 @@ Você pode visualizar o projeto online através do link abaixo:
 Se você encontrou algum erro de digitação ou tem sugestões para melhorar a experiência de leitura, sinta-se à vontade para entrar em contato:
 
 * **Nome:** [Jairo Cetano]
-* **E-mail:** [jacodeapp@gmail.com]
+* **E-mail:** [emailcaetano@gmail.com]
 
 ---
 *Desenvolvido com dedicação para facilitar o acesso à Palavra de Deus.*
