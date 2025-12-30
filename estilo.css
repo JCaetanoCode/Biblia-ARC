@@ -148,7 +148,7 @@
 .sidebar {
 	width: 220px; /* menor largura */
 	padding: 12px 10px; /* reduzir padding top/bottom para aproximar textos */
-	background: #cecece;
+	background: #fffafa;
 	border-right: 1px solid #e6e6e6;
 	overflow-y: auto;
 	position: fixed;
