@@ -1,5 +1,13 @@
 
 
+/* Destaca o capitulo quando acessado Obs: se necessario pode mudar o h1 para p*/
+	h1:target {
+    background-color: #fff3cd;  /* Fundo amarelo claro */
+    border-left: 4px solid #ffc107;  /* Borda amarela */
+    padding-left: 15px;
+    transition: all 0.3s ease;  /* Transição suave */
+}
+
 
 /* Efeito de destaque ao passar o mouse (Interatividade) */
 .v-bloco:hover {
