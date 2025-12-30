@@ -1,3 +1,32 @@
+
+
+
+/* Efeito de destaque ao passar o mouse (Interatividade) */
+.v-bloco:hover {
+    background-color: #f0f7ff; /* Um azul bem clarinho */
+    border-left: 3px solid #3498db; /* Uma barrinha azul na lateral */
+    padding-left: 10px;
+    transition: all 0.3s ease; /* Deixa o movimento suave */
+    border-radius: 4px;
+}
+
+/* Efeito de destaque "Alvo" (Quando você clica em um link de versículo) */
+.v-bloco:target {
+    background-color: #fff9c4; /* Um tom amarelo de "marca-texto" */
+    animation: pulse 2s infinite;
+}
+
+/* Animação opcional para o destaque alvo */
+@keyframes pulse {
+    0% { background-color: #fff9c4; }
+    50% { background-color: #fffde7; }
+    100% { background-color: #fff9c4; }
+}
+
+
+
+
+
 .img-capa {
     margin-top: 50px; /* Aumente este número até a imagem aparecer totalmente */
     display: block;
@@ -119,7 +148,7 @@
 .sidebar {
 	width: 220px; /* menor largura */
 	padding: 12px 10px; /* reduzir padding top/bottom para aproximar textos */
-	background: #f6f6f6;
+	background: #cecece;
 	border-right: 1px solid #e6e6e6;
 	overflow-y: auto;
 	position: fixed;
