@@ -1,4 +1,202 @@
 
+/* Estilo geral da página (Body)*/
+body {
+            max-width: 1200px;     /* Largura máxima do conteúdo */
+            margin: 0 auto;       /* Centraliza */
+            padding: 40px 60px;   /* Margem interna (cima/baixo esquerda/direita) */
+            font-family: Georgia, serif;/* Fonte elegante e legível */
+            line-height: 1.8;/* Espaçamento entre linhas */
+            background-color: #ecece9;/* Cor de fundo suave */
+        }
+        
+        h1 {
+            color: #333;/* Cor do título */
+            text-align: center; /* Centraliza o título */
+           /*  border-bottom: 2px solid #3498db; */
+            padding-bottom: 10px;/* Espaço abaixo do título */
+            margin-bottom: 20px;/* Espaço abaixo do título */
+        }
+        
+        h2 {
+            color: #333;/* Cor do subtítulo */
+            margin-top: 5px;/* Espaço acima do subtítulo */
+            margin-bottom: 15px;/* Espaço abaixo do subtítulo */
+            border-top: 2px solid #fca23c; /* insere uma barra vertical a esquerda do h2 */
+            padding-left: 15px;
+			text-align: center;
+        }
+        
+        h3 {
+            text-align: center;
+            color: #34495e;
+        }
+		
+		h5 {
+            text-align: center;
+            color: #34495e;
+        }
+        
+        p {
+            text-align: left;
+            margin: 15px 0;
+            color: #818181;
+            text-indent: 0;
+			font-size: 20px;
+        }
+        /* Estilo para links de navegação dos capitulos*/
+         nav {
+            background-color: rgb(255, 255, 255);
+            padding: 2px;
+            border-radius: 8px;
+            margin: 5px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #838280;
+            padding: 8px 12px;
+            margin: 0 3px;
+            display: inline-block;
+        }
+        
+        nav a:hover {
+            background-color: #f58b29;
+            color: white;
+            border-radius: 4px;
+        }
+
+        /* Isso remove o azul e o sublinhado de todos os links */
+        a {
+            color: #333333; /* Escolha a cor aqui */
+            text-decoration: none; /* Remove aquele traço embaixo */
+        }
+
+        /* Muda a cor quando o mouse passar por cima (hover) */
+        a:hover {
+            color: #3498db; /* Fica azul apenas quando encostar */
+            text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse */
+        }
+
+
+        /* Container do botão de contato */
+        .contato-btn-container {
+            text-align: center; /* Centraliza o botão */
+            margin-top: 20px; /* Espaço acima do botão */
+        }
+
+        /* botão de contato*/
+        .btn-contato {
+            background-color: #2c3e50; /* Cor que combina com seu menu */
+            color: white;
+            padding: 5px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+        /* botão de contato hover*/
+        .btn-contato:hover {
+            background-color: #34495e; /* Muda de cor ao passar o mouse */
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+
+        
+        /* Estilo para o botão flutuante de home */
+        .btn-flutuante-home:hover {
+            background-color: #2980b9; /* Cor mais escura ao passar o mouse */
+            transform: scale(1.1); /* Um leve efeito de "pulso" */
+        }
+
+
+/* Estilo para o menu de navegação lateral */
+.menu_navegacao {
+    text-align: center; /* Centraliza o menu */
+    justify-content: center; /* Centraliza os itens */
+    align-items: start;
+    margin-bottom: 10px; /* Espaço abaixo do menu */
+}
+/* Estilo para a fonte do menu lateral */
+.menu_cabecalho {
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 10px;
+    color: #333333;
+}
+
+
+
+/* Estilo para o menu de livros */
+.AT, .NT {
+    display: flex; /* Usa Flexbox para layout */
+    width: auto; /* largura da tela */
+    height: auto; /* altura da tela */
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: start; /* Alinha ao topo */
+    flex-direction: row; /* Itens em linha */
+    flex-wrap: wrap; /* Permite quebra de linha se necessário */
+    text-decoration: solid;
+}
+
+/* Estilo para livros */
+.livros {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #717174;
+    
+}
+
+.contato-btn-container {
+    text-align: center; /* Centraliza o botão */
+    margin-top: 20px; /* Espaço acima do botão */
+}
+
+/* Estilo para os títulos do antigo testamento */
+.at {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Estilo para os títulos do novo testamento */
+.nt {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #34495e;
+}
+
+/* Estilo para o título das categorias dos livros */
+.categoria {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #7f8c8d;
+}
+
+
+
+
+
+
 
 /* Destaca o capitulo quando acessado Obs: se necessario pode mudar o h1 para p*/
 	h1:target {
@@ -31,276 +229,7 @@
     100% { background-color: #fff9c4; }
 }
 
-
-
-
-
-.img-capa {
-    margin-top: 50px; /* Aumente este número até a imagem aparecer totalmente */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/* codigo para a descrição e imagem da tela principal */
-/* Para uma imagem centralizada */
-.home-logo {
-    max-width: 100%;    /* Garante que ela nunca ultrapasse a largura da tela */
-    height: auto;       /* Mantém a proporção sem achatar */
-    width: 800px;       /* O tamanho que você quer que ela apareça na tela */
-    margin-bottom: 20px;
-    border-radius: 8px; /* Opcional: arredonda levemente as bordas */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sombra suave para dar profundidade */
-}
-
-.home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh; /* Centraliza verticalmente na tela */
-    text-align: center;
-    padding: 20px;
-    padding-top: 100px; /* Isso empurra todo o conteúdo (imagem + texto) para baixo */
-}
-
-.home-title {
-    font-family: 'Georgia', serif;
-    font-size: 3rem;
-    color: #2c3e50;
-    margin-bottom: 0;
-}
-
-.home-subtitle {
-    font-size: 1.2rem;
-    color: #7f8c8d;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.home-divider {
-    width: 60px;
-    height: 3px;
-    background-color: #3498db; /* O azul que você já usa */
-    margin: 20px auto;
-}
-
-.home-btn {
-    display: inline-block;
-    background-color: #2c3e50;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-    transition: transform 0.2s;
-}
-
-.home-btn:hover {
-    transform: scale(1.05);
-    background-color: #34495e;
-}
-
-
-
-
-/* Estilo para o bloco do versículo */
-.v-bloco {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    line-height: 1.6;
-    color: #333;
-    margin-bottom: 12px; /* Espaço entre um verso e outro */
-    text-align: justify;
-}
-
-/* Estilo para o número do versículo */
-.v-num {
-    font-weight: bold;
-    color: #2c3e50; /* Um azul escuro sóbrio */
-    font-size: 0.85em; /* Um pouco menor que o texto */
-    margin-right: 8px; /* Afasta o número do início do texto */
-    display: inline-block;
-    min-width: 25px; /* Alinha os números verticalmente */
-}
-
-/* Efeito opcional: destaca o verso quando você passa o mouse */
-.v-bloco:hover {
-    background-color: #f9f9f9;
-}
-
-
-
-
-/* botão de contato*/
-.btn-contato {
-    background-color: #2c3e50; /* Cor que combina com seu menu */
-    color: white;
-    padding: 5px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    display: inline-block;
-    transition: background 0.3s;
-}
-
-.btn-contato:hover {
-    background-color: #34495e; /* Muda de cor ao passar o mouse */
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-}
-
-
-
-/* Sidebar compacta */
-.sidebar {
-	width: 220px; /* menor largura */
-	padding: 12px 10px; /* reduzir padding top/bottom para aproximar textos */
-	background: #fffafa;
-	border-right: 1px solid #e6e6e6;
-	overflow-y: auto;
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-}
-
-/* Aproxima títulos das listas */
-.sidebar .category {
-	font-weight: 700;
-	color: #666;
-	margin: 8px 0 6px 0; /* menos espaço acima e abaixo */
-	font-size: 0.95rem;
-}
-
-/* Listas mais compactas */
-.lista-livros {
-	list-style: none;
-	padding: 0;
-	margin: 0 0 10px 0;
-}
-.lista-livros li {
-	margin: 3px 0; /* diminuir espaçamento entre itens */
-	font-size: 0.95rem;
-	line-height: 1.35;
-}
-.lista-livros a {
-	color: #1a73e8;
-	text-decoration: none;
-}
-.lista-livros a:hover {
-	text-decoration: underline;
-}
-
-/* Conteúdo principal deslocado à direita da sidebar */
-.content {
-	margin-left: 240px; /* espaço para a sidebar fixa */
-	padding: 18px;
-	max-width: 980px;
-}
-
-/* Ajustes para telas pequenas */
-@media (max-width: 800px) {
-	.sidebar {
-		position: static;
-		width: 100%;
-		height: auto;
-		border-right: none;
-	}
-	.content {
-		margin-left: 0;
-	}
-}
-
-body {
-            max-width: 800px;     /* Largura máxima do conteúdo */
-            margin: 0 auto;       /* Centraliza */
-            padding: 40px 60px;   /* Margem interna (cima/baixo esquerda/direita) */
-            font-family: Georgia, serif;
-            line-height: 1.8;
-            background-color: #f5f5f5;
-        }
-        
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        
-        h2 {
-            color: #34495e;
-            margin-top: 40px;
-            /*border-left: 4px solid #3498db; "insere uma barra vertical a esquerda do h2"*/
-            padding-left: 15px;
-			text-align: center;
-        }
-        
-        h3 {
-            text-align: center;
-            color: #34495e;
-        }
-		
-		h5 {
-            text-align: center;
-            color: #34495e;
-        }
-        
-        p {
-            text-align: justify;
-            margin: 15px 0;
-            color: #333;
-            text-indent: 0;
-			font-size: 22px;
-        }
-        
-        sup {
-            color: #e74c3c;
-            font-weight: bold;
-            margin-right: 5px;
-        }
-        
-        nav {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        
-        nav a {
-            text-decoration: none;
-            color: #3498db;
-            padding: 8px 12px;
-            margin: 0 3px;
-            display: inline-block;
-        }
-        
-        nav a:hover {
-            background-color: #3498db;
-            color: white;
-            border-radius: 4px;
-        }
-        
-        hr {
-            border: none;
-            border-top: 1px solid #ddd;
-            margin: 40px 0;
-        }
-        
-        .voltar {
-            display: inline-block;
-            margin: 10px 0 20px 0;
-            color: #3498db;
-            text-decoration: none;
-            font-size: 16px;
-        }
-        
-        .voltar:hover {
-            text-decoration: underline;
-        }
+    
 		
 	/* Destaca o versículo quando acessado pela âncora */
 	p:target {
@@ -312,55 +241,7 @@ body {
 
 
 
-/* Menu Lateral Fixo */
-        .menu-lateral {
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 150px;
-            height: 100vh;
-            background-color: #f4f4f4;
-            overflow-y: auto;
-            padding: 20px 10px;
-            border-right: 1px solid #ddd;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-            align-content: flex-start;
-        }
 
-        .menu-lateral a {
-            text-decoration: none;
-            color: #333;
-            padding: 5px 8px;
-            background: #fff;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 14px;
-        }
-
-        .menu-lateral a:hover {
-            background-color: #e0e0e0;
-        }
-
-        /* Conteúdo do Texto */
-        .conteudo {
-            margin-left: 170px; /* Dá espaço para o menu fixo */
-            padding: 40px;
-            max-width: 800px;
-            line-height: 1.6;
-        }
-
-        p {
-            margin-bottom: 20px;
-            scroll-margin-top: 20px; /* Faz o link não "grudar" no topo ao clicar */
-			text-align: left;
-        }
-		
-		/*no menu dos livros com aparencia sem as bolinhas e com uma aparência mais limpa,*/
-		ul { list-style-type: none; padding: 0; }
-		li a { text-decoration: none; color: blue; line-height: 2.0; }
-		li a:hover { text-decoration: underline; }
 	
 
 /*coloca um botao do lado direito ao clicar volta para o inicio (topo) da pagina*/
@@ -399,10 +280,7 @@ body {
     transition: background 0.3s;
 }
 
-.btn-flutuante-home:hover {
-    background-color: #2980b9; /* Cor mais escura ao passar o mouse */
-    transform: scale(1.1); /* Um leve efeito de "pulso" */
-}
+
 
 
 

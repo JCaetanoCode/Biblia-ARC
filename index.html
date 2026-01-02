@@ -6,42 +6,37 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+<div id="topo"></div><!--âncora para o botão flutuante-->
 
+<h1 class="home-title">Bíblia Sagrada ARC</h1>
 
-<!-- codigo para a descrição e imagem da tela principal -->
-<div class="home-container">
-    <div class="home-content">
-        <img src="biblia_texto.jpg" alt="Bíblia ARC" class="home-logo">
-        <h1 class="home-title">Bíblia Sagrada ARC</h1>
-        <p class="home-subtitle">Almeida Revista e Corrigida</p>
-        <div class="home-divider"></div>
-        <p class="home-text">
-            Explore as Escrituras Sagradas em uma interface projetada para o estudo e a meditação. 
-            Simplicidade, rapidez e fidelidade aos textos originais.
-        </p>
-        <a href="genesis.html" class="home-btn">Começar Leitura</a>
-		<p>&nbsp;</p>
-
-    </div>
+<!-- Menu de navegação lateral -->
+<div class="menu_navegacao">
+	<tr>
+		<td><a href="index.html" class="menu_cabecalho" title="Início">Início</a></td>
+		<td><a href="sobre.html" class="menu_cabecalho" title="Sobre">Sobre</a></td>
+		<td><a href="contato.html" class="menu_cabecalho" title="Contato">Contato</a></td>
+		<td><a href="politica.html" class="menu_cabecalho" title="Política">Política</a></td>
+		<td><a href="palavra.html" class="menu_cabecalho" title="Palavra">Palavra</a></td>
+	</tr>
 </div>
-<!-- codigo para a descrição e imagem da tela principal -->
 
+<h2>Antigo Testamento</h2>
 
-<!--menu livros-->
-
-	<aside class="sidebar" aria-label="Menu de livros">
-		<p class="category">Antigo Testamento</p>
-		<p class="category">Pentateuco</p>
-		<ul class="lista-livros">
+<aside class="AT">
+		<ol class="livros">
+			<p>Pentateuco</p>
 			<li><a href="genesis.html">Gênesis</a></li>
 			<li><a href="exodo.html">Êxodo</a></li>
 			<li><a href="levitico.html">Levítico</a></li>
 			<li><a href="numeros.html">Números</a></li>
 			<li><a href="deuteronomio.html">Deuteronômio</a></li>
-		</ul>
+		</ol>
 
-		<p class="category">Históricos</p>
-		<ul class="lista-livros">
+
+
+		<ol class="livros">
+			<p>Históricos</p>
 			<li><a href="josue.html">Josué</a></li>
 			<li><a href="juizes.html">Juízes</a></li>
 			<li><a href="rute.html">Rute</a></li>
@@ -54,28 +49,35 @@
 			<li><a href="esdras.html">Esdras</a></li>
 			<li><a href="neemias.html">Neemias</a></li>
 			<li><a href="ester.html">Ester</a></li>
-		</ul>
+		</ol>
 
-		<p class="category">Poéticos</p>
-		<ul class="lista-livros">
+
+		
+
+		<ol class="livros">
+			<p>Poéticos</p>
 			<li><a href="jo.html">Jó</a></li>
 			<li><a href="salmos.html">Salmos</a></li>
 			<li><a href="proverbios.html">Provérbios</a></li>
 			<li><a href="eclesiastes.html">Eclesiastes</a></li>
 			<li><a href="cantares.html">Cantares</a></li>
-		</ul>
+		</ol>
 
-		<p class="category">Profetas Maiores</p>
-		<ul class="lista-livros">
+		
+
+		<ol class="livros">
+			<p>Profetas Maiores</p>
 			<li><a href="isaias.html">Isaías</a></li>
 			<li><a href="jeremias.html">Jeremias</a></li>
 			<li><a href="lamentacoes.html">Lamentações</a></li>
 			<li><a href="ezequiel.html">Ezequiel</a></li>
 			<li><a href="daniel.html">Daniel</a></li>
-		</ul>
+		</ol>
 
-		<p class="category">Profetas Menores</p>
-		<ul class="lista-livros">
+				
+
+		<ol class="livros">
+			<p>Profetas Menores</p>
 			<li><a href="oseias.html">Oseias</a></li>
 			<li><a href="joel.html">Joel</a></li>
 			<li><a href="amos.html">Amós</a></li>
@@ -88,24 +90,31 @@
 			<li><a href="ageu.html">Ageu</a></li>
 			<li><a href="zacarias.html">Zacarias</a></li>
 			<li><a href="malaquias.html">Malaquias</a></li>
-		</ul>
+		</ol>
 
-		<p class="category">Novo Testamento</p>
-		<p class="category">Evangelhos</p>
-		<ul class="lista-livros">
+</aside>	
+
+
+<h2>Novo Testamento</h2>
+<aside class="NT">
+		<ol class="livros">
+			<p>Evangelhos</p>
 			<li><a href="mateus.html">Mateus</a></li>
 			<li><a href="marcos.html">Marcos</a></li>
 			<li><a href="lucas.html">Lucas</a></li>
 			<li><a href="joao.html">João</a></li>
-		</ul>
-		<p class="category">Histórico</p>
-		<ul class="lista-livros">
+		</ol>
+
+
+		<ol class="livros">
+			<p>Histórico</p>
 			<li><a href="atos.html">Atos</a></li>
-		</ul> 
+		</ol> 
 		
-		<p class="category">Epístolas de Paulo</p>
 		
-		<ul class="lista-livros">
+
+		<ol class="livros">
+			<p>Epístolas Paulinas</p>
 			<li><a href="romanos.html">Romanos</a></li>
 			<li><a href="1corintios.html">1 Coríntios</a></li>
 			<li><a href="2corintios.html">2 Coríntios</a></li>
@@ -119,11 +128,12 @@
 			<li><a href="2timoteo.html">2 Timóteo</a></li>
 			<li><a href="tito.html">Tito</a></li>
 			<li><a href="filemom.html">Filemom</a></li>
-		</ul>
+		</ol>
 		
-		<p class="category">Epístolas Gerais</p>
 		
-		<ul class="lista-livros">
+
+		<ol class="livros">
+			<p>Epístolas Gerais</p>
 			<li><a href="hebreus.html">Hebreus</a></li>
 			<li><a href="tiago.html">Tiago</a></li>
 			<li><a href="1pedro.html">1 Pedro</a></li>
@@ -132,18 +142,21 @@
 			<li><a href="2joao.html">2 João</a></li>
 			<li><a href="3joao.html">3 João</a></li>
 			<li><a href="judas.html">Judas</a></li>
-		</ul>
+		</ol>
 		
-		<p class="category">Revelação</p>
-		<ul class="lista-livros">
+		
+
+		<ol class="livros">
+			<p>Revelação</p>
 			<li><a href="apocalipse.html">Apocalipse</a></li>
-		</ul>
+		</ol> 
+</aside>
 
-		<p></p>
+
+	<!--botão fale conosco-->
+	<div class="contato-btn-container">
 		<a href="contato.html" class="btn-contato">Fale Conosco</a>
-		<p></p>
-
-	</aside>
+	</div>
 
 
 </body>
