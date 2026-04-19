@@ -1,4 +1,39 @@
 
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Estilo dinâmico para se adaptar em dispositivos móveis*/
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;        /* Permite que os itens pulem de linha em telas muito pequenas */
+    justify-content: center; /* Centraliza os itens */
+    gap: 15px;              /* Espaçamento entre os links */
+    padding: 10px;
+    background-color: #f8f8f8; /* Opcional: fundo para destacar o menu */
+}
+
+.menu_cabecalho {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    white-space: nowrap;    /* Impede que o nome do link quebre ao meio */
+}
+
+/* Efeito ao passar o mouse */
+.menu_cabecalho:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+
+
 /* Estilo geral da página (Body)*/
 body {
             max-width: 1200px;     /* Largura máxima do conteúdo */
@@ -43,6 +78,7 @@ body {
             text-indent: 0;
 			font-size: 20px;
         }
+		
         /* Estilo para links de navegação dos capitulos*/
          nav {
             background-color: rgb(255, 255, 255);
@@ -112,14 +148,17 @@ body {
         }
 
 
-/* Estilo para o menu de navegação lateral */
-.menu_navegacao {
+
+
+
+/* Estilo para o menu de navegação de livros */
+.cabecalho {
     text-align: center; /* Centraliza o menu */
     justify-content: center; /* Centraliza os itens */
     align-items: start;
     margin-bottom: 10px; /* Espaço abaixo do menu */
 }
-/* Estilo para a fonte do menu lateral */
+/* Estilo para a fonte do menu cabeçalho */
 .menu_cabecalho {
     text-align: center; /* Centraliza o texto */
     font-size: 1.2em;
@@ -138,7 +177,7 @@ body {
     list-style-type: none; /* Remove os marcadores padrão */
     padding: 0; /* Remove o padding padrão */
     margin: 0; /* Remove a margem padrão */
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: space-evenly; /* Centraliza horizontalmente */
     align-items: start; /* Alinha ao topo */
     flex-direction: row; /* Itens em linha */
     flex-wrap: wrap; /* Permite quebra de linha se necessário */
@@ -191,10 +230,6 @@ body {
     text-align: center;
     color: #7f8c8d;
 }
-
-
-
-
 
 
 
